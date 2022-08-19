@@ -120,4 +120,39 @@ button {
         max-width: 768px;
         margin: auto; 
     }
+    #first {
+        display: flex;
+        flex-direction: column;
+    }
+    input {
+        width: 80%;
+        margin: auto;
+        margin-right: -10px;
+    }
+    label {
+        margin: auto;
+        margin-left: 10px;
+    }
+    #state {
+        width: 15%;
+        margin: auto;
+        margin-right: 35em;
+    }
+    #zip {
+        width: 25%;
+        margin: auto;
+        margin-left: 10rem;
+    }
+    .check_check {
+        display: flex;
+        flex-direction: column;
+    }
+    input[type="checkbox"] {
+        margin: auto;
+        margin-left: 10px;
+    }
+    .check {
+        margin-left: 30px;
+        margin-top: -20px;
+    }
 }
